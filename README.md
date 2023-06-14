@@ -38,7 +38,7 @@ public function testForm(Player $player): void {
 
     new eSimple($player, $title, $content, $buttons, $action);
 }
-
+```
 
 
 To use the `eCustom` class and create custom forms, you can include the following code in your project:
@@ -72,6 +72,7 @@ function showCustomForm(Player $player): void {
 
     new eCustom($player, $title, $elements, $action);
 }
+```
 To use the `eModel` class and create model forms, you can include the following code in your project:
 // Example usage of eCustom form
 ```php
@@ -97,3 +98,4 @@ function showConfirmationModal(Player $player): void {
 
     eModal::createModal($player, $title, $content, $buttons, $action);
 }
+```
