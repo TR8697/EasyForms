@@ -16,7 +16,6 @@ To use EasyForm in your PocketMine-MP plugin, you can follow these steps:
 
 To create a simple form, you can use the `eSimple` class. Here's an example:
 
-```php
 public function testForm(Player $player): void {
     $title = "";
     $content = "";
@@ -41,7 +40,6 @@ public function testForm(Player $player): void {
 
 To use the `eCustom` class and create custom forms, you can include the following code in your project:
 
-```php
 use TR8697\EasyForm\eCustom;
 use pocketmine\player\Player;
 
@@ -72,7 +70,6 @@ function showCustomForm(Player $player): void {
 }
 To use the `eModel` class and create model forms, you can include the following code in your project:
 // Example usage of eCustom form
-```php
 
 use TR8697\EasyForm\eModal;
 use pocketmine\player\Player;
